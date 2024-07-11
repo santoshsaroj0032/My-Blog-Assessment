@@ -14,7 +14,7 @@ const Admin = () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ title, author, content }),
-    }).then(() => {
+    }).then(() => { 
       setTitle('');
       setAuthor('');
       setContent('');
